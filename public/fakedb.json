@@ -1,0 +1,40 @@
+{
+    "classes": [
+      {
+        "_id": 1,
+        "class_name": "Class 1",
+        "class_teacher": "Ms. Smith",
+        "total_students": 25,
+        "image": "../src/assets/img/1.jpg"
+      },
+      {
+        "_id": 2,
+        "class_name": "Class 2",
+        "class_teacher": "Mr. Johnson",
+        "total_students": 28,
+        "image": "../src/assets/img/2.jpg"
+      },
+      {
+        "_id": 3,
+        "class_name": "Class 3",
+        "class_teacher": "Mrs. Garcia",
+        "total_students": 30,
+        "image": "../src/assets/img/3.jpg"
+      },
+      {
+        "_id": 4,
+        "class_name": "Class 4",
+        "class_teacher": "Mr. Thompson",
+        "total_students": 27,
+        "image": "../src/assets/img/4.jpg"
+      },
+      {
+        "_id": 5,
+        "class_name": "Class 5",
+        "class_teacher": "Ms. Patel",
+        "total_students": 29,
+        "image": "../src/assets/img/5.jpg"
+      }
+    ]
+  }
+  
