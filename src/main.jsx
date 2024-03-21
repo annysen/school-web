@@ -5,7 +5,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Components/Layout/Layout.jsx";
 import Home from "./Components/Home/Home.jsx";
 import About from "../About/About.jsx";
-import Error from "./Components/Error/Error.jsx";
+import Error from "../Error/Error.jsx";
+import Class from "./Components/Class/Class.jsx";
+import Teachers from "./Components/Teachers/Teachers.jsx";
+import Contact from "./Components/Contact/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +24,18 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About></About>,
+      },
+      {
+        path: "/class",
+        element: <Class></Class>,
+      },
+      {
+        path: "/teachers",
+        element: <Teachers></Teachers>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
       },
     ],
   },

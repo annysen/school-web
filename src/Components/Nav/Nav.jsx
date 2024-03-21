@@ -1,23 +1,24 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import ActiveLink from "../ActiveLink/ActiveLink";
 
 const Nav = () => {
   return (
-    <nav className="flex justify-center mt-5">
-      <Link className="mr-5 font-bold" to="/">
+    <nav className="flex justify-center gap-5 p mt-5">
+      <ActiveLink className="mr-5 font-bold" to="/">
         Home
-      </Link>
-      <Link className="mr-5 font-bold" to="/about">
+      </ActiveLink>
+      <ActiveLink className="mr-5 font-bold" to="/about">
         About
-      </Link>
-      <Link className="mr-5 font-bold" to="/class">
+      </ActiveLink>
+      <ActiveLink className="mr-5 font-bold" to="/class">
         Class
-      </Link>
-      <Link className="mr-5 font-bold" to="/teachers">
+      </ActiveLink>
+      <ActiveLink className="mr-5 font-bold" to="/teachers">
         Teachers
-      </Link>
-      <Link className="mr-5 font-bold" to="/contact">
+      </ActiveLink>
+      <ActiveLink className="mr-5 font-bold" to="/contact">
         Contact
-      </Link>
+      </ActiveLink>
     </nav>
   );
 };
