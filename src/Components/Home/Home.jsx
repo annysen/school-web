@@ -1,4 +1,3 @@
-import { useLoaderData } from "react-router-dom";
 import cover from "../../assets/img/cover.jpg";
 
 import {
@@ -8,8 +7,6 @@ import {
 } from "@heroicons/react/24/solid";
 
 const Home = () => {
-  const data = useLoaderData();
-  console.log(data.classes);
   return (
     <div>
       {/* title section */}

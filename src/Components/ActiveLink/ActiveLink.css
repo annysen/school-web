@@ -1,7 +1,7 @@
 .active {
-    background-color: orangered;
-    padding: 5px;
+    /* background-color: orangered; */
+    /* padding: 5px; */
     text-decoration: underline;
-    color: white;
-    border-radius: 5px;
+    color: orangered;
+    /* border-radius: 5px; */
 }

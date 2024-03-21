@@ -4,11 +4,12 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Components/Layout/Layout.jsx";
 import Home from "./Components/Home/Home.jsx";
-import About from "../About/About.jsx";
-import Error from "../Error/Error.jsx";
 import Class from "./Components/Class/Class.jsx";
 import Teachers from "./Components/Teachers/Teachers.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
+import About from "./Components/About/About.jsx";
+import Error from "./Components/Error/Error.jsx";
+import ClassDetaills from "./Components/Class/ClassDetaills.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("../public/fakedb.json"),
       },
       {
         path: "/about",
@@ -28,6 +28,12 @@ const router = createBrowserRouter([
       {
         path: "/class",
         element: <Class></Class>,
+        loader: () => fetch("../public/fakedb.json"),
+      },
+      {
+        path: "/class/:id",
+        element: <ClassDetaills></ClassDetaills>,
+        loader: () => fetch("../public/fakedb.json"),
       },
       {
         path: "/teachers",
